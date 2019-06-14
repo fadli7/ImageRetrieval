@@ -1,5 +1,5 @@
 # ImageRetrieval
 
-> python -d dataset -i index.csv
+> python index.py -d dataset -i index.csv
 
-> python -i index.csv -q queries/1.jpg -r dataset
+> python search.py -i index.csv -q queries/1.jpg -r dataset
